@@ -1,6 +1,6 @@
-# Advanced Enchantments Mod
+# Extra Enchants Mod
 
-A Minecraft Fabric mod for Minecraft 1.21.1 that adds 450+ unique enchantments to enhance your gameplay experience!
+A Minecraft Fabric mod for Minecraft 1.21.1 that adds unique enchantments to enhance your gameplay experience!
 
 ## Features
 
@@ -116,4 +116,5 @@ Contributions are welcome! Feel free to submit pull requests or open issues for 
 ## Credits
 
 Inspired by the AdvancedEnchantments plugin for Bukkit/Spigot.
+
 
