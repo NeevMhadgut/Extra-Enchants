@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "advanced-enchantments",
+	"version": "${version}",
+	"name": "Advanced Enchantments",
+	"description": "Adds 450+ unique enchantments to Minecraft!",
+	"authors": [
+		"YourName"
+	],
+	"contact": {
+		"homepage": "https://example.com/",
+		"sources": "https://github.com/yourname/advanced-enchantments"
+	},
+	"license": "MIT",
+	"icon": "assets/advanced-enchantments/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.advancedenchantments.AdvancedEnchantmentsMod"
+		],
+		"client": [
+			"com.example.advancedenchantments.AdvancedEnchantmentsModClient"
+		]
+	},
+	"mixins": [
+		"advanced-enchantments.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
+
